@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kediyi Bul</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="C:\Users\ASUS\Desktop\Ödev\odev02\odev02\src\index.jsx"></script>
+</head>
+<body >
+    <div class="container"><h1>Kedi Bulmaca</h1>
+        <div class="main-content" id="root"></div>
+    </div>
+<script src="bundle.js"></script>
+<p>Bu oyunda 3 kapalı kart içindeki kediyi bulman gerekmektedir.İlk tercihte Kedi kartını bulamaz isen 2. seçim hakkı tanınacaktır.</p>
+
+<img src="mavi.jpg" class="kart" id="img0" onclick="tikla1()">
+<img src="mavi.jpg" class="kart" id="img1" onclick="tikla2()">
+<img src="mavi.jpg" class="kart" id="img2" onclick="tikla3()">
+
+<div class="mesaj">
+    <p id="alanId">Kedi kartını bulmak için üzerine tıkla</p>
+    <p id="kazandiId" style="display: none;"></p>
+    <p id="yenildiId" style="display: none;"></p>
+</div>
+
+<button onclick="yenile()">Tekrar Başla</button>
+</body>
+</html>
